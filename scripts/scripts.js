@@ -58,7 +58,7 @@ function recalculate(modelName, duration) {
 
 let modelButton = document.getElementById("model-button");
 modelButton.addEventListener("click", changeModel);
-switchModelButton = document.getElementById("model-button");
+
 
 function changeModel() {
   let modelText = document.getElementById("model-text");
